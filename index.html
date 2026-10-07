@@ -1,102 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Swara Patil | Personal Profile</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- ================= BACKGROUND ================= -->
+    <!-- BACKGROUND -->
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
 
-    <div class="background-effects">
-
-        <div class="ambient-glow pink-glow"></div>
-        <div class="ambient-glow purple-glow"></div>
-        <div class="ambient-glow cyan-glow"></div>
-
-        <!-- Circuit / current lines -->
-        <div class="circuit circuit-1">
-            <span class="pulse"></span>
-        </div>
-
-        <div class="circuit circuit-2">
-            <span class="pulse"></span>
-        </div>
-
-        <div class="circuit circuit-3">
-            <span class="pulse"></span>
-        </div>
-
-        <div class="circuit circuit-4">
-            <span class="pulse"></span>
-        </div>
-
-        <div class="circuit circuit-5">
-            <span class="pulse"></span>
-        </div>
-
-        <!-- Circuit nodes -->
-        <span class="node node-1"></span>
-        <span class="node node-2"></span>
-        <span class="node node-3"></span>
-        <span class="node node-4"></span>
-        <span class="node node-5"></span>
-
-        <!-- Very subtle programming fragments -->
-        <div class="code-fragment fragment-1">&lt;/&gt;</div>
-        <div class="code-fragment fragment-2">01001</div>
-        <div class="code-fragment fragment-3">{ }</div>
-        <div class="code-fragment fragment-4">01 // 10</div>
-
-        <div class="grid-overlay"></div>
-
+    <div class="circuit circuit-one">
+        <span class="pulse"></span>
     </div>
 
+    <div class="circuit circuit-two">
+        <span class="pulse"></span>
+    </div>
 
-    <!-- ================= NAVIGATION ================= -->
+    <div class="circuit circuit-three">
+        <span class="pulse"></span>
+    </div>
 
-    <header>
+    <div class="circuit circuit-four">
+        <span class="pulse"></span>
+    </div>
 
-        <nav class="navbar">
+    <div class="circuit circuit-five">
+        <span class="pulse"></span>
+    </div>
 
-            <a href="#home" class="wordmark">
-                SWARA<span>.</span>
-            </a>
+    <div class="node node-one"></div>
+    <div class="node node-two"></div>
+    <div class="node node-three"></div>
+    <div class="node node-four"></div>
+    <div class="node node-five"></div>
 
-            <div class="nav-links">
+    <div class="code-fragment code-one">01 / INIT</div>
+    <div class="code-fragment code-two">SYS_02</div>
+    <div class="code-fragment code-three">00110101</div>
+    <div class="code-fragment code-four">&lt;/&gt;</div>
 
-                <a href="#about">01 / ABOUT</a>
-                <a href="#education">02 / EDUCATION</a>
-                <a href="#skills">03 / SKILLS</a>
-                <a href="#experience">04 / EXPERIENCE</a>
-                <a href="#interests">05 / INTERESTS</a>
-                <a href="#contact">06 / CONTACT</a>
-
-            </div>
-
-        </nav>
-
-    </header>
+    <div class="grid-overlay"></div>
 
 
-    <!-- ================= HERO ================= -->
+    <!-- NAVIGATION -->
+    <nav class="navbar">
 
+        <div class="nav-logo">
+            SWARA PATIL
+        </div>
+
+        <div class="nav-links">
+            <a href="#about">01 / ABOUT</a>
+            <a href="#education">02 / EDUCATION</a>
+            <a href="#skills">03 / SKILLS</a>
+            <a href="#contact">04 / CONTACT</a>
+        </div>
+
+    </nav>
+
+
+    <!-- HERO -->
     <main>
 
-        <section id="home" class="hero">
+        <section class="hero">
 
             <div class="hero-content">
 
@@ -105,8 +82,7 @@
                 </p>
 
                 <h1>
-                    Swara
-                    <span>Patil</span>
+                    Swara <span>Patil</span>
                 </h1>
 
                 <p class="hero-description">
@@ -115,23 +91,10 @@
                     problem solving.
                 </p>
 
-                <div class="hero-buttons">
-
-                    <a href="#about" class="primary-button">
-                        EXPLORE PROFILE
-                        <span>↗</span>
-                    </a>
-
-                    <a href="#contact" class="secondary-button">
-                        CONTACT
-                    </a>
-
-                </div>
+                <div class="hero-line"></div>
 
             </div>
 
-
-            <!-- ================= PROFILE PHOTO ================= -->
 
             <div class="hero-image">
 
@@ -165,43 +128,27 @@
 
             </div>
 
-
-            <div class="scroll-indicator">
-                SCROLL TO EXPLORE
-                <span>↓</span>
-            </div>
-
         </section>
 
 
-        <!-- ================= ABOUT ================= -->
-
-        <section id="about" class="section">
+        <!-- ABOUT -->
+        <section id="about" class="section about-section">
 
             <div class="section-heading">
                 <span>01</span>
-                <p>ABOUT</p>
+                <p>ABOUT ME</p>
             </div>
 
-            <div class="about-layout">
+            <div class="about-grid">
 
                 <div class="about-title">
 
-                    <p class="mini-code">
-                        // who_am_i
-                    </p>
-
                     <h2>
-                        Learning and
-                        <span>how things work.</span>
+                        A little bit
+                        <span>of everything.</span>
                     </h2>
 
-                    <div class="tiny-decoration">
-                        01 ───────────────── ✦
-                    </div>
-
                 </div>
-
 
                 <div class="about-text">
 
@@ -232,70 +179,56 @@
         </section>
 
 
-        <!-- ================= EDUCATION ================= -->
-
-        <section id="education" class="section dark-section">
+        <!-- EDUCATION -->
+        <section id="education" class="section education-section">
 
             <div class="section-heading">
                 <span>02</span>
                 <p>EDUCATION</p>
             </div>
 
-            <div class="education-layout">
-
-                <div class="education-side">
-
-                    <span>2024</span>
-
-                    <div class="vertical-line"></div>
-
-                    <span>2028</span>
-
-                </div>
-
+            <div class="education-card">
 
                 <div class="education-main">
 
-                    <p class="eyebrow">
-                        BACHELOR'S DEGREE
-                    </p>
+                    <span class="education-year">
+                        2024 — 2028
+                    </span>
+
+                    <h2>
+                        B.Tech — Computer &
+                        Communication Engineering
+                    </h2>
 
                     <h3>
-                        B.Tech — Computer & Communication Engineering
+                        Manipal Institute of Technology
                     </h3>
 
-                    <p class="institution">
-                        Manipal Institute of Technology
+                    <p>
+                        Studying communication networks, web technologies,
+                        operating systems, information security, data
+                        structures and software development.
                     </p>
-
-                    <p class="education-description">
-                        Studying communication networks, web technologies, operating systems, information security, data structures and software development.
-                    </p>
-
-                    <div class="education-details">
-
-                        <div>
-                            <span>PROGRAM</span>
-                            <strong>CCE</strong>
-                        </div>
-
-                        <div>
-                            <span>LOCATION</span>
-                            <strong>MANIPAL</strong>
-                        </div>
-
-                        <div>
-                            <span>GRADUATION</span>
-                            <strong>2028</strong>
-                        </div>
-
-                    </div>
 
                 </div>
 
+                <div class="education-meta">
 
-                <div class="education-mark">
-                    02
+                    <div>
+                        <span>PROGRAM</span>
+                        <strong>CCE</strong>
+                    </div>
+
+                    <div>
+                        <span>LOCATION</span>
+                        <strong>MANIPAL</strong>
+                    </div>
+
+                    <div>
+                        <span>GRADUATION</span>
+                        <strong>2028</strong>
+                    </div>
+
                 </div>
 
             </div>
@@ -303,53 +236,30 @@
         </section>
 
 
-        <!-- ================= SKILLS ================= -->
-
-        <section id="skills" class="section">
+        <!-- SKILLS -->
+        <section id="skills" class="section skills-section">
 
             <div class="section-heading">
                 <span>03</span>
                 <p>SKILLS</p>
             </div>
 
-            <div class="skills-intro">
-
-                <div>
-
-                    <p class="mini-code">
-                        // current_stack
-                    </p>
-
-                    <h2>
-                        Tools I use to
-                        <span>build.</span>
-                    </h2>
-
-                </div>
-
-                <p>
-                    A growing technical toolkit developed through
-                    coursework, projects, and experimentation.
-                </p>
-
-            </div>
-
-
             <div class="skills-grid">
 
+                <!-- PROGRAMMING -->
                 <div class="skill-card">
 
                     <div class="skill-top">
                         <span>01</span>
-                        <span>PROGRAMMING</span>
+                        <span>CORE</span>
                     </div>
 
                     <div class="skill-symbol">
-                        &lt;/&gt;
+                        01
                     </div>
 
                     <h3>
-                        Languages
+                        Programming
                     </h3>
 
                     <div class="skill-list">
@@ -361,6 +271,7 @@
                 </div>
 
 
+                <!-- WEB -->
                 <div class="skill-card">
 
                     <div class="skill-top">
@@ -369,11 +280,11 @@
                     </div>
 
                     <div class="skill-symbol">
-                        { }
+                        01
                     </div>
 
                     <h3>
-                        Development
+                        Web Development
                     </h3>
 
                     <div class="skill-list">
@@ -386,6 +297,7 @@
                 </div>
 
 
+                <!-- TOOLS -->
                 <div class="skill-card">
 
                     <div class="skill-top">
@@ -394,7 +306,7 @@
                     </div>
 
                     <div class="skill-symbol">
-                        ./_
+                        01
                     </div>
 
                     <h3>
@@ -410,11 +322,12 @@
                 </div>
 
 
+                <!-- DATA -->
                 <div class="skill-card">
 
                     <div class="skill-top">
                         <span>04</span>
-                        <span>CORE</span>
+                        <span>DATA</span>
                     </div>
 
                     <div class="skill-symbol">
@@ -426,9 +339,10 @@
                     </h3>
 
                     <div class="skill-list">
-                        <span>Numpy</span>
+                        <span>NumPy</span>
                         <span>Pandas</span>
-                        <span>Matplotlib/Seaborn</span>
+                        <span>Matplotlib</span>
+                        <span>Seaborn</span>
                     </div>
 
                 </div>
@@ -438,198 +352,28 @@
         </section>
 
 
-        <!-- ================= EXPERIENCE ================= -->
-<!--
-        <section id="experience" class="section dark-section">
+        <!-- CONTACT -->
+        <section id="contact" class="section contact-section">
 
             <div class="section-heading">
                 <span>04</span>
-                <p>EXPERIENCE & ACTIVITIES</p>
+                <p>CONTACT</p>
             </div>
 
-            <div class="experience-layout">
+            <div class="contact-content">
 
-                <div class="experience-intro">
-
-                    <p class="mini-code">
-                        // beyond_the_classroom
-                    </p>
+                <div class="contact-title">
 
                     <h2>
-                        Learning by
-                        <span>doing.</span>
+                        Let's connect.
                     </h2>
 
-                </div>
-
-
-                <div class="experience-list">
-
-                    <div class="experience-item">
-
-                        <div class="experience-number">
-                            01
-                        </div>
-
-                        <div>
-
-                            <p class="eyebrow">
-                                INTERNSHIP
-                            </p>
-
-                            <h3>
-                                Python Development
-                            </h3>
-
-                            <p>
-                                Worked on programming tasks and practical
-                                Python development during an internship.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="experience-item">
-
-                        <div class="experience-number">
-                            02
-                        </div>
-
-                        <div>
-
-                            <p class="eyebrow">
-                                EVENTS & LEADERSHIP
-                            </p>
-
-                            <h3>
-                                Technical & Cultural Activities
-                            </h3>
-
-                            <p>
-                                Participated in hackathons, MUN, drama,
-                                technical events, and college organizing
-                                committees.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="experience-item">
-
-                        <div class="experience-number">
-                            03
-                        </div>
-
-                        <div>
-
-                            <p class="eyebrow">
-                                CREATIVE
-                            </p>
-
-                            <h3>
-                                Art & Visual Design
-                            </h3>
-
-                            <p>
-                                Exploring painting, visual design, and
-                                creative work alongside technical projects.
-                            </p>
-
-                        </div>
-
-                    </div>
+                    <p>
+                        Interested in technology, creative work, or just
+                        want to say hello? Feel free to reach out :D
+                    </p>
 
                 </div>
-
-            </div>
-
-        </section>
-
-    -->
-        <!-- ================= INTERESTS ================= -->
-
-        <section id="interests" class="section">
-
-            <div class="section-heading">
-                <span>05</span>
-                <p>INTERESTS</p>
-            </div>
-
-            <div class="interests-header">
-
-                <p class="mini-code">
-                    // outside_the_code
-                </p>
-
-                <h2>
-                    More than
-                    <span>technology.</span>
-                </h2>
-
-            </div>
-
-
-            <div class="interest-grid">
-
-                <div class="interest">
-                    <span>01</span>
-                    <h3>Painting</h3>
-                    <p>Visual art & creative expression</p>
-                </div>
-
-                <div class="interest">
-                    <span>02</span>
-                    <h3>Music</h3>
-                    <p>Singing & discovering new music</p>
-                </div>
-
-                <div class="interest">
-                    <span>03</span>
-                    <h3>Gaming</h3>
-                    <p>Development as well as engagement</p>
-                </div>
-
-                <div class="interest">
-                    <span>04</span>
-                    <h3>Writing</h3>
-                    <p>Pouring out my thoughts</p>
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= CONTACT ================= -->
-
-        <section id="contact" class="contact-section">
-
-            <div class="contact-glow"></div>
-
-            <div class="contact-inner">
-
-                <div class="section-heading">
-                    <span>06</span>
-                    <p>CONTACT</p>
-                </div>
-
-                <p class="mini-code">
-                    // let's_connect
-                </p>
-
-                <h2>
-                    Let's build something
-                    <span>interesting.</span>
-                </h2>
-
-                <p class="contact-description">
-                    Whether it's a project, collaboration, or simply
-                    connecting over technology, feel free to reach out :D
-                </p>
 
 
                 <div class="contact-links">
@@ -638,9 +382,19 @@
                         href="mailto:swaravishnupatil@gmail.com"
                         class="contact-link"
                     >
-                        <span>EMAIL</span>
-                        <strong>swaravishnupatil@gmail.com</strong>
-                        <b>↗</b>
+
+                        <span class="contact-label">
+                            EMAIL
+                        </span>
+
+                        <span class="contact-value">
+                            swaravishnupatil@gmail.com
+                        </span>
+
+                        <span class="contact-arrow">
+                            ↗
+                        </span>
+
                     </a>
 
 
@@ -650,9 +404,19 @@
                         rel="noopener noreferrer"
                         class="contact-link"
                     >
-                        <span>GITHUB</span>
-                        <strong>github.com/PatilSwara</strong>
-                        <b>↗</b>
+
+                        <span class="contact-label">
+                            GITHUB
+                        </span>
+
+                        <span class="contact-value">
+                            github.com/PatilSwara
+                        </span>
+
+                        <span class="contact-arrow">
+                            ↗
+                        </span>
+
                     </a>
 
 
@@ -662,9 +426,19 @@
                         rel="noopener noreferrer"
                         class="contact-link"
                     >
-                        <span>LINKEDIN</span>
-                        <strong>Swara Patil</strong>
-                        <b>↗</b>
+
+                        <span class="contact-label">
+                            LINKEDIN
+                        </span>
+
+                        <span class="contact-value">
+                            linkedin.com/in/swara-patil-835941384
+                        </span>
+
+                        <span class="contact-arrow">
+                            ↗
+                        </span>
+
                     </a>
 
                 </div>
@@ -676,15 +450,21 @@
     </main>
 
 
-    <!-- ================= FOOTER ================= -->
+    <!-- FOOTER -->
+    <footer class="footer">
 
-    <footer>
+        <div class="footer-left">
+            <strong>SWARA PATIL</strong>
+            <span>PERSONAL PROFILE</span>
+        </div>
 
-        <p>SWARA PATIL</p>
+        <div class="footer-center">
+            2026
+        </div>
 
-        <p>PERSONAL PROFILE / 2026</p>
-
-        <p>&lt;/&gt; WITH INTENTION</p>
+        <div class="footer-right">
+            &lt;/&gt; WITH INTENTION
+        </div>
 
     </footer>
 
